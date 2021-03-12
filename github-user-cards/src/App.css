@@ -1,0 +1,16 @@
+body {
+  background-color: grey;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  color: purple;
+}
+.container div {
+  margin: 5px;
+}
+.container img{
+  width: 10%;
+}
