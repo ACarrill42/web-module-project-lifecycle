@@ -8,7 +8,6 @@ class App extends React.Component {
     users: []
   }
    
-  data = Array.from(this.state.users);
 
   componentDidMount() {
     axios.get("https://api.github.com/users/ACarrill42")
